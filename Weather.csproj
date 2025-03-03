@@ -68,6 +68,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Classes\Weather.cs" />
+    <Compile Include="Classes\WeatherViewModel.cs" />
     <Compile Include="Elements\Element.xaml.cs">
       <DependentUpon>Element.xaml</DependentUpon>
     </Compile>
