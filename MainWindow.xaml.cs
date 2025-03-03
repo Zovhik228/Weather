@@ -24,5 +24,22 @@ namespace Weather
         {
             InitializeComponent();
         }
+        private void textBox_LostFocus(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void textBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void textBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+
+            }
+        }
     }
 }
